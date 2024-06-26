@@ -38,7 +38,7 @@ intellij {
 
     // 使用本地idea
     localPath.set("D:\\devtools\\JetBrains\\IntelliJ IDEA 2024.1")
-    plugins.set(listOf(/* Plugin Dependencies */))
+    plugins.set(listOf("com.intellij.database", "com.intellij.spring"))
 }
 
 tasks {
